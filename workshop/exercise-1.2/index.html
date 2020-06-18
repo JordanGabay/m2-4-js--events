@@ -1,7 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style></style>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"/>
+    <title>Exercise 1.2</title>
+    <style>
+      .result {
+        display:flex;
+        color: gold;
+        align-items:center;
+        justify-content: center;
+        width:100%;
+        height:90vh;
+        font-size:100px;
+        font-family: 'poppins';
+      }
+      p {
+        font-family: 'poppins';
+        font-size:30px;
+      }
+      body {
+        background-image: url(timer.png);
+        background-size:cover;
+      }
+      .time-text span{
+        color: gold;
+      }
+    </style>
   </head>
   <body>
     <p class="time-text">You have <span id="time"></span> seconds to click</p>
